@@ -2,6 +2,10 @@ const env = process.env.NODE_ENV || 'development'
 const serverIP = 'localhost'
 const serverPort = 5000
 export default {
+  CONTACTS: {
+    TEL: '(877)355-3585',
+    EMAIL: '123@gmail.com',
+  },
   CUSTOMER: 'customer',
   CREATOR: 'creator',
   CONTEST_STATUS_ACTIVE: 'active',
