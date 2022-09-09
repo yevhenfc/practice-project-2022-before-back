@@ -1,3 +1,24 @@
+import React from 'react';
+import styles from './ArticlesRegList.module.sass';
+import articles from './articles.json';
+import CONSTANTS from '../../constants';
+
+function ArticlesRegList() {
+  return (
+    <div className='styles.articlesMainContainer'>
+      
+    </div>
+  )
+}
+
+export default  ArticlesRegList;
+
+
+// articlesMainContainer
+// headerArticle
+// article
+// ColumnContainer
+// orangeSpan
 
 
 // <div className={styles.articlesMainContainer}>
