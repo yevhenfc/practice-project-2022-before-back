@@ -39,20 +39,26 @@ const Home = (props) => {
                 <span className={styleName}>{text}</span>
               </div>
               <p>
-                Launch a naming contest to engage hundreds of naming
-                experts as you’re guided through our agency-level naming process.
-                Or, explore our hand-picked collection of premium names
-                available for immediate purchase
+                Launch a naming contest to engage hundreds of naming  experts as you’re guided through our agency-level naming process. Or, explore our hand-picked collection of premium names available for immediate purchase
               </p>
               <div className={styles.button}>
                 <Link className={styles.button__link} to="/dashboard">DASHBOARD</Link>
               </div>
             </div>
             <div className={styles.greyContainer}>
+            <div className={styles.headerBar}>
+              <div className={styles.headline}>
+                  <span>Crowdsourced Naming Contests</span>
+              </div>
+              <p>Launch a naming contest and receive 100s of custom ideas from world's largest community of naming experts. Includes rapid brainstorming and agency-style name validation tools</p>
+            </div>
               <SlideBar
                 images={carouselConstants.mainSliderImages}
                 carouselType={carouselConstants.MAIN_SLIDER}
               />
+              <div className={styles.button}>
+                Start A Contest
+              </div>
             </div>
             <div className={styles.container__description}>
               <h2 className={styles.blueUnderline}>Why Squadhelp?</h2>
